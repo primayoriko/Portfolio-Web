@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8" />
-    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" /> -->
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="static/css/index.css">
     <script src="static/js/index.js" ></script>
     <title>Portfolio Page</title>
@@ -12,9 +12,22 @@
     <header>
         <nav class="navbar">
             <ul class="menu-wrapper">
-                <li class="menu-item" href="#home">Home</li>
-                <li class="menu-item" href="#news">News</li>
-                <li class="menu-item" href="#contact">Contact</li>
+                <li ><img src="static/img/favicon.png" style="width: 45px; margin-right: 65px;"></li>
+                <li class="menu-item"> 
+                    <a href="#" class="link"> Home </a> 
+                </li>
+                <li class="menu-item"> 
+                    <a href="#general" class="link"> General </a> 
+                </li>
+                <li class="menu-item"> 
+                    <a href="#education" class="link"> Education </a> 
+                </li>
+                <li class="menu-item"> 
+                    <a href="#experience" class="link"> Experience </a> 
+                </li>
+                <li class="menu-item"> 
+                    <a href="#achiviement" class="link"> Achiviement </a> 
+                </li>
             </ul>
         </nav>
         <div class="header">
@@ -31,11 +44,11 @@
     </header>
     <main>
         <section class="profile-section">
-            <div class="header-section">
+            <div class="header-section" id="general">
                 <b> General </b> 
-                <i class="arrow down" onclick="toggleContent(this, 'general')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'general-content')"></i>
             </div>
-            <div class="content-section" id="general">
+            <div class="content-section" id="general-content">
                 <table style="width:100%">
                 <tr>
                     <th>Firstname</th>
@@ -61,29 +74,29 @@
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section">
+            <div class="header-section"  id="education">
                 <b> Education </b>
-                <i class="arrow down" onclick="toggleContent(this, 'education')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'education-content')"></i>
             </div>
-            <div class="content-section" id="education">
+            <div class="content-section" id="education-content">
                 asd
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section">
+            <div class="header-section" id="experience">
                 <b> Experience </b>
-                <i class="arrow down" onclick="toggleContent(this, 'experience')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'experience-content')"></i>
             </div>
-            <div class="content-section" id="experience">
+            <div class="content-section" id="experience-content">
                 asdsa
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section">
+            <div class="header-section" id="achiviement">
                 <b> Achiviement </b>
-                <i class="arrow down" onclick="toggleContent(this, 'achiviement')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'achiviement-content')"></i>
             </div>
-            <div class="content-section" id="achiviement">
+            <div class="content-section" id="achiviement-content">
                 asdsa
             </div>
         </section>
