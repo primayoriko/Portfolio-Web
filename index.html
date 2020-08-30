@@ -4,22 +4,36 @@
     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" /> -->
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" ></script>
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="static/js/index.js" ></script>
     <title>Portfolio Page</title>
 </head>
 <body>
     <header>
-        <h1> My Portfolio Webpage </h1>
+        <nav class="navbar">
+            <ul class="menu-wrapper">
+                <li class="menu-item" href="#home">Home</li>
+                <li class="menu-item" href="#news">News</li>
+                <li class="menu-item" href="#contact">Contact</li>
+            </ul>
+        </nav>
+        <div class="header">
+            <div class="image-container">
+                <img src="static/img/13518146.JPG" class="profile-img">
+            </div>
+            <div class="header-info">
+                <h1> Naufal Prima Yoriko </h1>
+                <hr class="line-break"/>
+                <h3 style="line-height: 40%;"> 3rd Year Informatics Student </h3>
+                <h3 style="line-height: 40%;"> at Institut Teknologi Bandung </h3>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="image-container">
-            <img src="13518146.JPG" class="profile-img">
-        </div>
-        <div class="profile-section">
+        <section class="profile-section">
             <div class="header-section">
                 <b> General </b> 
-                <i class="arrow down" onclick="toggleContent('general')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'general')"></i>
             </div>
             <div class="content-section" id="general">
                 <table style="width:100%">
@@ -45,33 +59,36 @@
                 </tr>
                 </table>
             </div>
-        </div>
-        <div class="profile-section">
+        </section>
+        <section class="profile-section">
             <div class="header-section">
                 <b> Education </b>
-                <i class="arrow down" onclick="toggleContent('education')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'education')"></i>
             </div>
             <div class="content-section" id="education">
                 asd
             </div>
-        </div>
-        <div class="profile-section">
+        </section>
+        <section class="profile-section">
             <div class="header-section">
                 <b> Experience </b>
-                <i class="arrow down" onclick="toggleContent('experience')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'experience')"></i>
             </div>
             <div class="content-section" id="experience">
                 asdsa
             </div>
-        </div>
-        <div class="profile-section">
+        </section>
+        <section class="profile-section">
             <div class="header-section">
                 <b> Achiviement </b>
-                <i class="arrow down" onclick="toggleContent('achiviement')"></i>
+                <i class="arrow down" onclick="toggleContent(this, 'achiviement')"></i>
             </div>
             <div class="content-section" id="achiviement">
                 asdsa
             </div>
-        </div>
+        </section>
     </main>
+    <footer>
+        <b> © 2020 Copyright: <a href="https://github.com/primayoriko">primayoriko</a> </b>
+    </footer>
 </body>

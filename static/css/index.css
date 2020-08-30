@@ -1,0 +1,120 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+main {
+    width : 70%;
+    height : 80%;
+    min-height: 500px;
+    margin : 0 auto;
+}
+
+footer {
+    width : 70%;
+    height : 10%;
+    min-height: 70px;
+    margin : 0 auto;
+    padding-top : 25px;
+    background-color : rgba(200, 200, 230, 0.5);
+    font-size : 20px;
+    text-align: center;
+}
+
+.navbar {
+    position : fixed;
+    top: 0;
+    left: 0;
+    width : 100%;
+    background-color : indigo;
+    font-size : 25px;
+    color: white;
+}
+
+.menu-wrapper {
+    display : flex;
+    list-style: none;
+    margin-left: 400px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 150px;
+}
+
+.header {
+    width : 70%;
+    height : 20%;
+    min-height: 50px;
+    margin : 15px auto;
+    margin-top : 70px;
+    padding : 30px 0;
+    background-color : rgba(200, 200, 230, 0.5);
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-container {
+    min-height: 500px;
+    /* background-color : rgba(150, 150, 180, 0.5); */
+}
+
+.profile-img {
+    min-width : 20%; 
+    max-height : 550px;
+    height : auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding : 20px;
+}
+
+.profile-section {
+    margin : 40px 0;
+    background-color : rgba(150, 150, 180, 0.5);
+    font-size : 30px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding : 25px 40px;
+    background-color: rgba(100, 100, 150, 0.7);
+}
+
+.content-section {
+    display : none;
+    padding : 25px 40px;
+}
+
+.line-break {
+    border: 1.5px solid;
+    margin : 0 20px;
+}
+
+.arrow {
+    display: inline-block;
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    padding: 15px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
