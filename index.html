@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="static/css/index.css">
     <script src="static/js/index.js" ></script>
     <title>Portfolio Page</title>
+    <!-- import below only for icons -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul class="menu-wrapper">
-                <li ><img src="static/img/favicon.png" style="width: 45px; margin-right: 65px;"></li>
+                <li><img src="static/img/favicon.png" style="width: 45px; margin-right: 65px;"></li>
                 <li class="menu-item"> 
                     <a href="#" class="link"> Home </a> 
                 </li>
@@ -32,76 +35,102 @@
         </nav>
         <div class="header">
             <div class="image-container">
-                <img src="static/img/13518146.JPG" class="profile-img">
+                <img src="static/img/13518146.JPG" class="profile-image">
             </div>
             <div class="header-info">
-                <h1> Naufal Prima Yoriko </h1>
+                <h1 class="title"> Naufal Prima Yoriko </h1>
                 <hr class="line-break"/>
-                <h3 style="line-height: 40%;"> 3rd Year Informatics Student </h3>
-                <h3 style="line-height: 40%;"> at Institut Teknologi Bandung </h3>
+                <h3 style="line-height: 120%; font-weight: bold"> <i>3rd Year Informatics Student</i> </h3>
+                <h3 style="line-height: 100%; font-weight: bold"> <i>at Institut Teknologi Bandung</i> </h3>
+                <div class="contact-container">
+                    <a href="https://github.com/primayoriko">
+                        <button class="contact-button">
+                            <i class="fa fa-github fa-3x contact-icon"></i>
+                        </button>
+                    </a>
+                    <a href="mailto:primayoriko@gmail.com">
+                        <button class="contact-button">
+                            <i class="fa fa-envelope fa-3x contact-icon"></i>
+                        </button>
+                    </a>
+                    <a href="https://linkedin.com/in/naufal-prima-yoriko-799622a8/">
+                        <button class="contact-button">
+                            <i class="fa fa-linkedin-square fa-3x contact-icon"></i>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
     <main>
         <section class="profile-section">
-            <div class="header-section" id="general">
+            <div class="section-header" id="general">
                 <b> General </b> 
                 <i class="arrow down" onclick="toggleContent(this, 'general-content')"></i>
             </div>
-            <div class="content-section" id="general-content">
-                <table style="width:100%">
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th> 
-                    <th>Age</th>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
-                </tr>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>80</td>
-                </tr>
+            <div class="section-content" id="general-content">
+                <table style="width: 100%; text-align: left">
+                    <tr>
+                        <th>Nickname</th>
+                        <td>:</td> 
+                        <td>'Naufal' or 'Yoriko'</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td>:</td> 
+                        <td>20 Years Old</td>
+                    </tr>
+                    <tr>
+                        <th>Hobbies</th>
+                        <td>:</td> 
+                        <td>Programming and Playing Games</td>
+                    </tr>
                 </table>
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section"  id="education">
+            <div class="section-header"  id="education">
                 <b> Education </b>
                 <i class="arrow down" onclick="toggleContent(this, 'education-content')"></i>
             </div>
-            <div class="content-section" id="education-content">
-                asd
+            <div class="section-content" id="education-content">
+                <ul>
+                    <li> MAN Insan Cendekia Serpong <i>(2015 - 2018)</i> </li>
+                    <li> Institut Teknologi Bandung <i>(2018 - present)</i> </li>
+                </ul>
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section" id="experience">
+            <div class="section-header" id="experience">
                 <b> Experience </b>
                 <i class="arrow down" onclick="toggleContent(this, 'experience-content')"></i>
             </div>
-            <div class="content-section" id="experience-content">
-                asdsa
+            <div class="section-content" id="experience-content">
+                <ul>
+                    <li> MAN Insan Cendekia Serpong <i>(2015 - 2018)</i> </li>
+                    <li> Institut Teknologi Bandung <i>(2018 - present)</i> </li>
+                </ul>
             </div>
         </section>
         <section class="profile-section">
-            <div class="header-section" id="achiviement">
+            <div class="section-header" id="achiviement">
                 <b> Achiviement </b>
                 <i class="arrow down" onclick="toggleContent(this, 'achiviement-content')"></i>
             </div>
-            <div class="content-section" id="achiviement-content">
-                asdsa
+            <div class="section-content" id="achiviement-content">
+                <ul>
+                    <li> MAN Insan Cendekia Serpong <i>(2015 - 2018)</i> </li>
+                    <li> Institut Teknologi Bandung <i>(2018 - present)</i> </li>
+                </ul>
             </div>
         </section>
     </main>
     <footer>
-        <b> © 2020 Copyright: <a href="https://github.com/primayoriko">primayoriko</a> </b>
+        <b style="font-size: 24px"> 
+            © 2020 Copyright: 
+            <a class="link" style="color: black;" href="https://github.com/primayoriko">
+                primayoriko
+            </a> 
+        </b>
     </footer>
 </body>
