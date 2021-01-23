@@ -1,16 +1,23 @@
-# Portfolio Web
+# Scratch Web Collection
 
 ---------
-Simple and static portfolio webpage using plain HTML, CSS, and JavaScript.
+My works collection on web development with vanilla (no framework).
 
-## Requirement
-
----------
-
-1. Web Browser, such as *Mozilla Firefox*, *Google Chrome*, or *Opera*.
-
-## How to run
+## Web List
 
 ---------
 
-1. Open `index.html` with your web browser.
+1. Biodata Page
+   With vanilla HTML, CSS, and JS.
+
+   ![biodata-page](docs/biodata-page.png)
+
+2. Portfolio Page
+   With vanilla HTML, JS, and Bootstrap CSS. 
+
+   ![portfolio-page](docs/portfolio-page.png)
+
+3. To Do List App
+   With vanilla HTML, CSS, and JS.
+
+   ![todo-app](docs/todo-app.png)

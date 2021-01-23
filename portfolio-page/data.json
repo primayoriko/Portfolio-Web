@@ -1,0 +1,346 @@
+{
+  "main": {
+    "name":"Naufal",
+    "fullname": "Naufal Prima Yoriko",
+    "description":"I am an ITB College Student.; I am an IT Enthusiast.; I'm an Amateur Software Engineer.; I'm an Amateur Web Developer.",
+    "image":"assets/profile.jpg",
+    "bio":"A learner who is full of curiosity and strives to be a better person every day. Having a high interest in Data Science and Web Development, also like to do some riddles and problem-solving questions.",
+    "contactmessage":"",
+    "email": "primayoriko@gmail.com",
+    "phone": "+62-821-8376-7920",
+    "github":"https://github.com/primayoriko",
+    "project":"https://github.com/primayoriko/primayoriko.github.io",
+    "address":{
+      "city":"Bekasi",
+      "state":"Jawa Barat",
+      "zip": "17510"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/naufal-prima-yoriko-799622a8/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/primayoriko",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"instagram",
+        "url":"https://instagram.com/primayoriko",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/PrimaYoriko",
+        "className":"fa fa-twitter"
+      }
+    ],
+    "interest": [
+      {
+        "name": "Web Development",
+        "description": " ",
+        "className": " "
+      },
+      {
+        "name": "machine Learning",
+        "description": " ",
+        "className": " "
+      },
+      {
+        "name": "Distributed System",
+        "description": " ",
+        "className": " "
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Institut Teknologi Bandung",
+        "degree":"Bachelor of Engineering",
+        "time":"2018 - now (On-Going)",
+        "description":"Majoring in Computer Science, studying that related to information technology"
+      },
+      {
+        "school":"MAN Insan Cendekia Serpong",
+        "degree":"High School",
+        "time":"2015 - 2018",
+        "description":"Having specialization on Mathematics and Natural Sciences"
+      }
+    ],
+    "experience":[
+      {
+        "company":"Pinhome",
+        "title":"Software Develeopment Engineer Intern",
+        "time":"4th of January 2021 - 12th of March 2021 (Soon)",
+        "description":"Haven't Started Yet"
+      },
+      {
+        "company":"Agate International",
+        "title":"Ful Stack Web Programmer Intern",
+        "time":"2nd of June 2020 - 28th of August 2020",
+        "description":"Creating RESTful Web App with ASP .NET Core and EF Core, which separated into two projects, MVC and API. In MVC App, I'm implementing authentication, localization-globalization, design view with bootstrap, and other features. I'm also implementing OData Protocol, Swagger for documenting API, and middleware modification in the API."
+      },
+      {
+        "company":"Institut Teknologi Bandung",
+        "title":"Assistant of Distributed System Laboratory",
+        "time":"5th of July 2020 - now (On-Going)",
+        "description":"Assisting Informatics Student in ITB to do their laboratory work/practice, and also creating the task and grading them."
+      },
+      {
+        "company":"Keluarga Kemahasiswaan (KM) ITB",
+        "title":"Developer Lead of Anmategra",
+        "time":"5th of August 2020 - now (On-Going)",
+        "description":"Leading team to create a web application for student affairs in ITB, and also taking part in programming the back-end of the web, such as modelling and creating databases, and creating controller, route, middleware, and documentation of the API."
+      },
+      {
+        "company":"Ministry of Religional Affair (Kementerian Agama), Republik Indonesia",
+        "title":"Instructor",
+        "time":"June 2019",
+        "description":"Teaching National Olympian from madrasah (MA) all around Indonesia in my OSN (National Olympiad) Field."
+      }    
+    ],
+    "achiviement": [
+      {
+        "event": "Hult Prize at ITB",
+        "scope": "Campus (International Scale Competition)",
+        "organizer": "Hult Prize Foundation & United Nation",
+        "title": "Top 10 Finalists",
+        "time": "Nov 2019",
+        "description": "Top 10 in ITB qualification rounds to get ticket to compete abroad, a competition Hult Prize Foundation, in collaboration with the United Nations to design a business plan and solve environmental problems, so we try to solve it with our apps, SociEnvi, platform that give place for collaboration among environmental projects organizer, volunteers, individual funders, and also companies."
+      },
+      {
+        "event": "Slashroot CTF (Capture the Flag)",
+        "scope": "National",
+        "organizer": "STIKOM Bali",
+        "title": "Top 11 Teams",
+        "time": "Sep 2019",
+        "description": "Top 11 from about 30 teams from different universities, competition in Jeopardy format CTF Competition, which is find vulnerabilities of system to exploit, from ranging from web exploitation, cryptography, until forensics."
+      },
+      {
+        "event": "Techphoria",
+        "scope": "National",
+        "organizer": "Universitas Sriwijaya",
+        "title": "Top 8 Finalists of Competitive Programming",
+        "time": "Sep 2019",
+        "description": "5th place in semifinal from about 20 teams from universities all-around Indonesia in Competitive Programming Competition, which focusing on problem solving skills with algorithms, data structures, to obtain time and memory efficiency."
+
+      },
+      {
+        "event": "Olimpiade Sains Nasional (National Olympiad of Indonesia)",
+        "scope": "National",
+        "organizer": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+        "title": "Gold Medalist",
+        "time": "Jul 2017",
+        "description": "Biggest annual science competition in Indonesia that held by Ministry of Educational Affair RI, getting 4th place beyond other thousands of participants all around Indonesia."
+      },
+      {
+        "event": "",
+        "scope": "",
+        "organizer": "",
+        "title": "",
+        "time": "",
+        "description": ""
+      },
+      {
+        "event": "",
+        "scope": "",
+        "organizer": "",
+        "title": "",
+        "time": "",
+        "description": ""
+      }
+    ],
+    "certification": [
+      {
+        "title": "Pelatihan Nasional Tahap III (National Training 3rd Phase)",
+        "institution": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+        "time": "Aug 2018 (No Expiration)",
+        "description": "A training that being held as a preparation for international scale competition, following 3rd phase of the training after being qualified in the 1st and 2nd phase afted selected among thousands of participants"
+      },
+      {
+        "title": "Pemrograman Dengan Python (Programming With Python)",
+        "institution": "Dicoding Academy",
+        "time": "Apr 2020 - Apr 2024",
+        "description": ""
+      },
+      {
+        "title": "Machine Learning Untuk Pemula (Machine Learning for Beginner)",
+        "institution": "Dicoding Academy",
+        "time": "Nov 2020 - Nov 2023",
+        "description": ""
+      },
+      {
+        "title": "Dasar Pemrograman Web (Web Development Essentials)",
+        "institution": "Dicoding Academy",
+        "time": "Sep 2019 - Sep 2022",
+        "description": ""
+      }
+    ],
+    "skill":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title": "Anmategra",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "School App",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Avatar Neighborhood Graph",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Simple Calc",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Paper-Rock-Scissors CNN",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Sorting Animation App",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Choco Shop",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Simple Sundanese Translator",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Guess Game",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "TCP Connection Simulator",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "FNY OS",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "15-Puzzle Solver",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Python Grammar Checker",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Convex Hull Finder",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      }
+    ]
+  }
+}
