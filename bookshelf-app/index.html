@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookshelf Apps</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Bookshelf App </h1>
+  </header>
+  <main>
+    <section id="add-wrapper">
+      <h2>Add Your Book</h2>
+      <form id="form-add" action="">
+            <div class="input">
+                <label for="input-title">Title</label>
+                <input id="input-title" type="text" required>
+            </div>
+            <div class="input">
+                <label for="input-author">Author</label>
+                <input id="input-author" type="text" required>
+            </div>
+            <div class="input">
+                <label for="input-year">Year</label>
+                <input id="input-year" type="number" required>
+            </div>
+            <div class="input-inline">
+                <input id="input-is-complete" type="checkbox">
+                <label for="input-is-complete">is complete?</label>
+            </div>
+            <button id="btn-add" type="button">Add Book!</button>
+        </form>
+    </section>
+
+    <section id="search-wrapper">
+      <h2>Search your Collections</h2>
+        <form id="form-search" action="">
+            <label for="input-search">Title</label>
+            <input id="input-search" type="text">
+            <div class="btn-container"> 
+              <button id="btn-search" type="button">Search!</button>
+            <button id="btn-reset" type="button">Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="incompleted-bookshelf-wrapper">
+      <h2>Unfinished Book</h2>
+      <div id="incompleted-bookshelf-list" class="book-container">
+      </div>
+    </section>
+
+    <section id="completed-bookshelf-wrapper">
+      <h2>Finished Book</h2>
+      <div id="completed-bookshelf-list" class="book-container">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Created by <b>Naufal Prima Yoriko</b> </p>
+    <p><b>Email:</b> primayoriko@gmail.com</p>
+    <p><b>LinkedIn:</b> https://www.linkedin.com/in/naufal-prima-yoriko-799622a8/</p>
+    <p><b>Github:</b> https://github.com/primayoriko/</p>
+  </footer>
+  <div id="delete-modal" class="modal">
+    <div class="modal-content">
+      <h3> Delete Book </h3>
+      <div style="height: 0.8px; margin: 3.5px 0; background-color: black"></div>
+      <p style="margin-top: 1rem; display: block;">Are you sure to delete this book? </p>
+      <div class="btn-container">
+        <button id="btn-confirm-delete"> Delete </button> 
+        <button id="btn-cancel-delete"> Cancel </button> 
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
